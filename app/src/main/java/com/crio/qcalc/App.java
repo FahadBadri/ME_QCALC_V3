@@ -16,19 +16,19 @@ public class App {
 
     System.out.println("Starting QCalc..");
     System.out.println(new App().getGreeting());
-   // ScientificCalculator calc = new ScientificCalculator();
+    ScientificCalculator calc = new ScientificCalculator();
 
     int result= calc.modulo(5, 2);
 
     System.out.println("modulo =" + result);
 
-    StandardCalculator calc = new StandardCalculator();
+    //StandardCalculator calc = new StandardCalculator();
 
-    calc.add(1, 2);
+//     calc.add(1, 2);
 
-    System.out.println(calc.getResult());
+//     System.out.println(calc.getResult());
 
-   System.out.println(calc.getResult());
+//    System.out.println(calc.getResult());
 
 }
 
