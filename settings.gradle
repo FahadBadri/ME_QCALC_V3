@@ -7,9 +7,5 @@
  * in the user manual at https://docs.gradle.org/7.4.2/userguide/multi_project_builds.html
  */
 
-<<<<<<< HEAD
-rootProject.name = 'fahadcoolbuddy-95-ME_QCALC_V3'
-=======
 rootProject.name = 'com.crio.qcalc'
->>>>>>> Initial commit
 include('app')
