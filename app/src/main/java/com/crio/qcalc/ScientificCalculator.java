@@ -1,6 +1,8 @@
 package com.crio.qcalc;
 public class ScientificCalculator {
 
+    
+
     public double squareOf(double num) {
         return num * num;
     }
@@ -20,7 +22,7 @@ public class ScientificCalculator {
          return dividend % divisor;
      }
 
-     public int modulo_double(double dividend, double divisor) {
-         return (int)dividend % (int)divisor;
+     public double modulo_double(double dividend, double divisor) {
+         return dividend % divisor;
      }
 }

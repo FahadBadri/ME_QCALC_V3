@@ -33,7 +33,7 @@ public class ScientificCalculatorTest {
     @Test
     @DisplayName("Test power of double")
     public void testPowerOf() {
-        Assertions.assertEquals(8.0, scientificCalculator.powerOf(2.0, 3.0));
+       Assertions.assertEquals(8.0, scientificCalculator.powerOf(2.0, 3.0));
         Assertions.assertEquals(0.125, scientificCalculator.powerOf(0.5, 3.0));
     }
 
@@ -47,7 +47,7 @@ public class ScientificCalculatorTest {
     @Test
     @DisplayName("Test modulo of integer")
     public void testModuloInt() {
-        Assertions.assertEquals(1, scientificCalculator.modulo(5, 2));
+       Assertions.assertEquals(1, scientificCalculator.modulo(5, 2));
         Assertions.assertEquals(0, scientificCalculator.modulo(10, 2));
     }
 
@@ -57,5 +57,6 @@ public class ScientificCalculatorTest {
         Assertions.assertEquals(1, scientificCalculator.modulo_double(5.0, 2.0));
         Assertions.assertEquals(0, scientificCalculator.modulo_double(10.0, 2.0));
     }
+    
 }
 
