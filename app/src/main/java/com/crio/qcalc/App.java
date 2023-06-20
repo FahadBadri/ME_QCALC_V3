@@ -16,7 +16,7 @@ public class App {
 
     System.out.println("Starting QCalc..");
     System.out.println(new App().getGreeting());
-    ScientificCalculator calc = new ScientificCalculator();
+   // ScientificCalculator calc = new ScientificCalculator();
 
     int result= calc.modulo(5, 2);
 
