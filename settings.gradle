@@ -8,4 +8,5 @@
  */
 
 rootProject.name = 'fahadcoolbuddy-95-ME_QCALC_V3'
+//rootProject= 'com.crio.qcalc'
 include('app')
