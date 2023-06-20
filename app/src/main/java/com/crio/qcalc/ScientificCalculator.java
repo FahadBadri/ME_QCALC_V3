@@ -8,7 +8,7 @@ public class ScientificCalculator {
     public double cubeOf(double num) {
         return num * num * num;
     }
-     public double powerOf(double base, double exponent) {
+     public double powerOf(double base,double exponent) {
          return Math.pow(base, exponent);
      }
 
@@ -16,11 +16,11 @@ public class ScientificCalculator {
          return Math.sqrt(num);
      }
 
-     public int modulo(int dividend, int divisor) {
+     public int modulo(int dividend,int divisor) {
          return dividend % divisor;
      }
 
-     public double modulo_double(double dividend, double divisor) {
-         return dividend % divisor;
+     public int modulo_double(double dividend, double divisor) {
+         return (int)dividend % (int)divisor;
      }
 }
